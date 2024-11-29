@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "src/nodemon app.js"
+  },
+  "author": "Adarsh Deshpande",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "http-status": "^1.7.4",
+    "mongoose": "^8.7.0",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.0"
+  }
+}
